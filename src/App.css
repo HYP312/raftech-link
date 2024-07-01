@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@font-face {
+  font-family: ABeeZee;
+  src: url('./Font/ABeeZee.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Alfa;
+  src: url('./Font/Alfa Slab One.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #014e8a; 
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*.bg{
+  background-image: url("Bg.png");
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  align-items: center;
+  z-index: 0;
+  background-repeat: no-repeat;
+} */
+.card{
+  margin-top: 20px;
+  background-color: #efe0dd7a;
+  border-radius: 20px;
+  padding: 15px;
+  max-width: 400px;
+  
+  border: 5px solid hsl(0, 100%, 50%);
+  animation: rainbow 10s infinite alternate;
+}
+@keyframes rainbow {
+  0% {border-color: hsl(0, 100%, 50%);}
+  14% {border-color: hsl(30,100%,50%);}
+  28% {border-color: hsl(60,100%,50%);}
+  42% {border-color: hsl(120,100%,50%);}
+  56% {border-color:  hsl(240,100%,50%);}
+  70% {border-color: hsl(280,100%,50%);}
+  84% {border-color: hsl(320,100%,50%);}
+  100% {border-color: hsl(255, 100%, 50%);}
+}
+
+.card h1{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.text-center{
+  font-family: Alfa, sans-serif;
+ text-align: center;
+}
+
+.card .card_body .sosial{
+  margin-top: 16px;
+}
+
+
+.profile .avatar{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.card .btn_actiton{
+  padding: 8px 10px;
+  color: rgb(0, 0, 0);text-decoration: none;
+  width: 100%;
+  display: block;
+  font-family: ABeeZee, sans-serif;
+  border-radius: 10px;
+  border: 1px solid #2674fa;
+  font-size: 16px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: flex;
+  align-items: center;
+}
+
+.card .btn_actiton span{
+  margin-left: 8px;
+}
+
+.btn_actiton:hover{
+  background: #ffffff;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+.bg_content{
+  margin-bottom: 2px;
+background: #ffffff21;
+}
+.rd_12{
+  border-radius: 12px;
+}
+
+.p_8{
+  padding: 8px;
+}
+
+
